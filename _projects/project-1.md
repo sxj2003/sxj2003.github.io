@@ -15,7 +15,7 @@ summary: A high-performance bionic butterfly designed for the 11th National Unde
 color: olive
 ---
 
-<img src="/images/tooth butterfly technology2.jpg" alt="Butterfly Design" style="width: 100%; display: block; margin: 0 auto;">
+<img src="/images/tooth butterfly technology2.jpg" alt="ButterflyDesign" style="width: 100%; display: block; margin: 0 auto;">
 
 **Project Overview**
 

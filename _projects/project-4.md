@@ -14,6 +14,7 @@ summary: Developed an intelligent control architecture for a magnetically driven
 color: olive
 ---
 
+<img src="/images/magnetrobotics.gif" alt="Magnetic Surgery Robot Demo" style="width: 100%; display: block; margin: 0 auto;">
 
 **Clinical Background and System Objectives**
 

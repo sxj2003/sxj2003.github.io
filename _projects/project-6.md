@@ -14,9 +14,9 @@ summary: Full-cycle design of a 6-DOF collaborative robot, featuring an improved
 color: olive
 ---
 
-<img src="/images/robotics1.png" alt=" LightweightDesign" style="width: 100%; display: block; margin: 0 auto;">
+<img src="/images/robotics1.png" alt="roboticsSimulation" style="width: 100%; display: block; margin: 0 auto;">
 
-<img src="/images/robotics2.png" alt=" LightweightDesign" style="width: 100%; display: block; margin: 0 auto;">
+<img src="/images/robotics2.png" alt="roboticsSimulation" style="width: 100%; display: block; margin: 0 auto;">
 
 **Modeling and Theoretical Derivation**
 
