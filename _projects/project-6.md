@@ -1,24 +1,29 @@
 ---
 layout: project
 type: project
-image: images/drone2.png
-title: SURF 2021 Research. Safety Guarantees for High Speed Drone Flight
-permalink: projects/SURF2021
+image: images/robotics.png
+title: ABB IRB 1200 Robot Simulation & Workspace Optimization
+permalink: projects/robotics
 # All dates must be YYYY-MM-DD format!
-date: 2021-09-12
+date: 2024-06-04
 labels:
-  - C++
-  - Drones
-  - Research
-  - Safety
-summary: Conducted a summer undergraduate research fellowship (SURF) at Caltech for the summer of 2021. Worked closely with Prof Aaron Ames and graduate student Drew Singletary. At the conclusion of the project we wrote a paper which has been submitted to IEEE RA-L journal. 
-color: yellow
+  - Robotics
+  - MATLAB
+  - Monte Carlo
+summary: Full-cycle design of a 6-DOF collaborative robot, featuring an improved Monte Carlo method for efficient workspace analysis.
+color: olive
 ---
 
-I conducted a summer undergraduate research fellowship (SURF) at Caltech for the summer of 2021. I worked in the AMBER lab at Caltech, working closely with Prof Aaron Ames and graduate student Drew Singletary. At the conclusion of the project we wrote a paper, *Onboard Safety Guarantees for Racing Drones:
-High-speed Geofencing with Control Barrier Functions* which has been submitted to IEEE RA-L journal. 
+<img src="/images/robotics1.png" alt=" LightweightDesign" style="width: 100%; display: block; margin: 0 auto;">
 
-Attached below is the video that we submitted with the paper
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_sCoAdBrgJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src="/images/robotics2.png" alt=" LightweightDesign" style="width: 100%; display: block; margin: 0 auto;">
 
-This paper was accepted by RA-L in January 2022. [link](https://ieeexplore.ieee.org/document/9691815?source=authoralert)
+**Modeling and Theoretical Derivation**
+
+For the "Robotics" course, our team designed a 6-DOF collaborative robot based on the industrial ABB IRB 1200 model. We managed the entire process from mechanical modeling in SolidWorks to mathematical derivation and motion control simulation. We constructed MDH parameter tables, derived kinematics equations, and solved dynamics problems using the Lagrangian equation. A PID controller was designed in MATLAB/Simulink to achieve velocity and position loop control while suppressing gravity interference.
+
+**Workspace Analysis Innovation**
+
+I was specifically responsible for workspace analysis, where I implemented an improved Monte Carlo method to address the efficiency issues and blurry boundaries of traditional approaches. By employing a "seed space generation and dynamic boundary expansion" strategy, I optimized the distribution of point clouds. This improved algorithm required only 4.22% of the sampling points used by traditional methods to reach equivalent volume calculation accuracy. The final project successfully demonstratsed complex tasks, including circular trajectory drawing and aerial object interception.
+
+

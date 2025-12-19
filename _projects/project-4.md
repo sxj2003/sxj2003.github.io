@@ -1,32 +1,28 @@
 ---
 layout: project
 type: project
-image: images/octagon.JPG
-title: Octagon Design Project
-permalink: projects/octagon
+image: images/SurgeryRobot.png
+title: Magnetic Surgery Robot System via Imitation Learning
+permalink: projects/SurgeryRobot
 # All dates must be YYYY-MM-DD format!
-date: 2021-04-02
+date: 2025-06-01
 labels:
-  - Solidworks
-  - Collaboration
-summary: Caltech ME14 Octagon design project. A two week design based robotics competition. No designs are constructed. 
+  - Surgical Robotics
+  - IL
+  - Pytorch
+summary: Developed an intelligent control architecture for a magnetically driven surgical robot to assist in minimally invasive cardiovascular interventions (TAVI).
 color: olive
 ---
 
-The Octagon project was a design only project conducted during the second half of ME14 at Caltech. Sophomore meches are presented with a theoretical game and must produce a strategy and design for a competitive robot over the course of two weeks. I worked with the same team as the transmission competition project. We produced a robot which drives through the scoring elements, allowing us to score at a greater speed. The rules of the octagon game are found below, along with our design and my engineering notebook for the class.
 
-**Competition Guidelines**
+**Clinical Background and System Objectives**
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vTqEwkxYcyA2txa5_n9EggeoJjiyihC91tdtJ6nZ35_4YrV05MeO3qqVXm9WHVkINOwKWMZpJZXPxNv/pub?embedded=true" frameborder="0" width="720" height="448"></iframe>
+To address the risks associated with Transcatheter Aortic Valve Replacement (TAVI/TAVR), particularly for high-risk elderly patients, our team designed a magnetically driven surgery robot system. By utilizing external magnetic fields to manipulate internal guidewires remotely, the system aims to reduce the radiation exposure for doctors and lower the technical difficulty of navigating complex arterial paths. I was responsible for the modular control system architecture, algorithm implementation, and system validation.
 
+**Algorithm Design and Training**
 
+I implemented an intelligent control strategy based on Imitation Learning to handle the non-linear friction and deformation of guidewires within vessels. This involved building a deep neural network in PyTorch and training it on expert datasets collected from skilled operators. Through extensive hyperparameter tuning experiments comparing 9 different combinations of learning rates and batch sizes, I determined that a Learning Rate of 0.001 and a Batch Size of 32 provided the optimal convergence for the model.
 
-**Our Design**
+**Verification and Performance Metrics**
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTx3Rv1RIsTFDQzRc2aM-a5bixRWLUcGtXq5LmNBzf42cGHbBDlklm0fPOHsnrGtlZdueMocCDyavtB/embed?start=false&loop=false&delayms=3000" frameborder="0" width="720" height="448" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-
-
-
-**Engineering Notebook**
-<iframe src="https://drive.google.com/file/d/1iO_a4iOYbJq5ZMCMH6Gf5fc1CqhtmtSv/preview" frameborder="0" width="720" height="720" allow="autoplay"></iframe>
+The project achieved excellent quantitative results, with the imitation learning strategy yielding a Mean Squared Error (MSE) of 0.622 and a Mean Absolute Error (MAE) of 0.347 on the test set. Physical testing on an aortic model demonstrated that the robot could smoothly navigate different vascular curvatures and reach target valve positions autonomously. This validation confirms the feasibility of using "imitation learning + magnetic robotics" to assist or partially replace manual operations in minimally invasive surgeries.

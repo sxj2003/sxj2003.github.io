@@ -1,9 +1,11 @@
 ---
 ---
 
-**Hi!** I'm a 3rd year PhD student at [Stanford](https://www.stanford.edu/) University, co-advised by Prof. Monroe Kennedy and Prof. Mac Schwager. I'm a member of the [ARM Lab](https://arm.stanford.edu/) and the [Multi-Robot Systems Lab](https://msl.stanford.edu/). I'm funded by the National Science Foundation Graduate Research Fellowship and the Stanford Graduate Fellowship.
+**Hi!** I am a 1st year Master's student at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), advised by Prof. Peter Bradley Shull. I am a member of the [Wearable System Lab](https://www.wearablesystems.org/).
 
-**I want to build everyday home robots**. Centered on theory, learning, and innovative hardware solutions, my research aims to enhance robot performance on challenging tasks. Currently I am interested in leveraging tactile sensing to enable dexterous manipulation and making vision language action (VLA) models more generalizable. 
+My current research involves motion detection algorithms based on wearable sensors, primarily focusing on golf movements.
+
+I’m currently learning machine learning algorithms for robot control.I am particularly interested in robot manipulation based on vision-tactile sensing. I believe that dexterous manipulation is a foundational skill that robots must master early on. **My goal is to develop excellent control algorithms for dexterous hands to enable robots to integrate into all aspects of people's lives.**
 
     
 

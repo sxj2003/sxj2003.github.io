@@ -1,7 +1,5 @@
 /*
-Aiden Swann
-UID: 2132118
-Date 2/20/2021
+
 
 weather.js is an interactive webpage which reports weather data from a user 
 entered zip code using a location and weather api

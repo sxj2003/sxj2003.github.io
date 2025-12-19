@@ -1,8 +1,6 @@
 /*
 
-Aiden Swann
-UID: 2132118
-Date 2/20/2021
+
 
 encrypt.js is an interactive webpage that allows an user to encrypt text
 

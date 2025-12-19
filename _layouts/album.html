@@ -50,10 +50,8 @@
                   {% assign dims = sizes[filename] %}
                   {% assign w = dims.width | default: 0 %}
                   {% assign h = dims.height | default: 0 %}
-                  {% assign thumb_name = filename | split: '.' | first | append: '.webp' %}
-                  {% assign thumb_url = dir | append: 'thumbs/' | append: thumb_name %}
                   <a href="{{ file.path | relative_url }}" target="_blank" rel="noreferrer" class="ph-thumb" {% if w > 0 and h > 0 %}data-pswp-width="{{ w }}" data-pswp-height="{{ h }}"{% endif %}>
-                    <img src="{{ thumb_url | relative_url }}" alt="{{ page.title }} photo {{ forloop.index }}" loading="lazy" decoding="async" />
+                    <img src="{{ file.path | relative_url }}" alt="{{ page.title }} photo {{ forloop.index }}" loading="lazy" decoding="async" />
                   </a>
                 {% endif %}
               {% endif %}
@@ -65,7 +63,7 @@
 
     <footer class="ph-footer">
       <div class="ph-container">
-        <small>&copy; {{ site.time | date: '%Y' }} Aiden Swann</small>
+        <small>&copy; {{ site.time | date: '%Y' }} Sun Xiujie</small>
       </div>
     </footer>
 
