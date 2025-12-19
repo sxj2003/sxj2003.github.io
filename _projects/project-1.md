@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/tooth butterfly technology.jpg
+image: images/tooth_butterfly_technology.jpg
 title: Bionic Flapping-Wing Robot
 permalink: projects/BionicFlapping-WingRobot
 # All dates must be YYYY-MM-DD format!
@@ -15,7 +15,7 @@ summary: A high-performance bionic butterfly designed for the 11th National Unde
 color: olive
 ---
 
-<img src="/images/tooth butterfly technology2.jpg" alt="ButterflyDesign" style="width: 100%; display: block; margin: 0 auto;">
+<img src="/images/tooth_butterfly_technology2.jpg" alt="ButterflyDesign" style="width: 100%; display: block; margin: 0 auto;">
 
 **Project Overview**
 
