@@ -1,0 +1,151 @@
+baseURL: "https://sxj2003.github.io/"
+title: Xiujie's blog
+pagination:
+  pagerSize: 5
+theme: PaperMod
+
+# Google Analytics
+services:
+  googleAnalytics:
+    id: G-QK1TX99BP9
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Xiujie's blog
+  description: "我会在这里记录一些学习笔记、技术博客与生活随笔。"
+  keywords: [博客, 笔记, 随笔]
+  author: Sun Xiujie
+  # author: ["Me", "You"] # multiple authors
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 24, 2026"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+
+  label:
+    text: "孙修洁的博客" 
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "Welcome! \U0001F44B"
+    subtitle: "我正就读于上海交通大学，目前致力于基于视触觉的灵巧手控制的研究。
+      我认为AI将取代绝大多数脑力劳动，机器人将取代绝大多数体力劳动。
+      本博客记录我的学习笔记、技术博客与生活随笔。"
+    imageUrl: "/images/xiujie-photo.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Blogs
+        url: /blogs/
+      - name: Essays
+        url: /essays/
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Welcome! \U0001F44B"
+    Content: 
+      我正就读于上海交通大学，目前致力于基于视触觉的灵巧手控制的研究。
+      我认为AI将取代绝大多数脑力劳动，机器人将取代绝大多数体力劳动。
+      本博客记录我的学习笔记、技术博客与生活随笔。
+   
+  socialIcons:
+    - name: weibo
+      url: "https://weibo.com/u/8422636788"
+    - name: email
+      url: "mailto:sxj2003@sjtu.edu.cn"
+    - name: github
+      url: "https://github.com/sxj2003"
+    - name: bilibili
+      url: "https://space.bilibili.com/3546636437424750?spm_id_from=333.1007.0.0"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XG6iiI6V6457p6Fpy5bwTUGKbtlx6KYb-bkZJ_RG9cQ"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/sxj2003/sxj2003.github.io/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: blogs
+      name: Blogs
+      url: /blogs/
+      weight: 10
+    - identifier: essays
+      name: Essays
+      url: /essays/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 25
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
