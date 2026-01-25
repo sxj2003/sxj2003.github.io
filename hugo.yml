@@ -122,18 +122,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: blogs
-      name: Blogs
-      url: /blogs/
-      weight: 10
-    - identifier: essays
-      name: Essays
-      url: /essays/
-      weight: 20
+    # - identifier: blogs
+    #   name: Blogs
+    #   url: /blogs/
+    #   weight: 10
+    # - identifier: essays
+    #   name: Essays
+    #   url: /essays/
+    #   weight: 20
     - identifier: archives
       name: Archives
       url: /archives/
-      weight: 30
+      weight: 30 
     - identifier: search
       name: Search
       url: /search/
