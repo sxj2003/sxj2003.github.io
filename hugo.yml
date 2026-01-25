@@ -130,6 +130,10 @@ menu:
     #   name: Essays
     #   url: /essays/
     #   weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 25
     - identifier: archives
       name: Archives
       url: /archives/
