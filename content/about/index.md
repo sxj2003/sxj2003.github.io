@@ -7,6 +7,7 @@ ShowReadingTime: false
 ShowWordCount: false
 ShowBreadCrumbs: false
 ShowPostNavLinks: false
+disableShare: true
 ---
 
 ## 👋 你好，我是孙修洁
