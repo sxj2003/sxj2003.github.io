@@ -12,7 +12,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 ---
 
-本文记录使用水上一起 atlas2 的使用过程，供参考。
+本文记录使用水上仪器 atlas2 的使用过程，供参考。
 
 ## 前提
 
