@@ -4,6 +4,8 @@ pagination:
   pagerSize: 5
 theme: PaperMod
 
+hasCJKLanguage: true
+
 # Google Analytics
 services:
   googleAnalytics:
@@ -26,12 +28,12 @@ params:
   author: Sun Xiujie
   # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 24, 2026"
+  DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -156,6 +158,9 @@ outputs:
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
     # anchorLineNos: true

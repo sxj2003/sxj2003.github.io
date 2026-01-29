@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .File.ContentBaseName "-" " " | title }}"
-date: {{ .Date }}
+date: {{ dateFormat "2006-01-02" .Date }}
 draft: false
 tags: []
 author: "Sun Xiujie"
